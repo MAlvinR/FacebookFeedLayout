@@ -34,7 +34,7 @@
         android:id="@+id/timestamp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="28 Nov pukul 08.00 • "
+        android:text="Nov 28 at 08.00am • "
         app:layout_constraintStart_toStartOf="@+id/profileName"
         app:layout_constraintTop_toBottomOf="@+id/profileName" />
 
@@ -120,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="2.149 Komentar • 1.563 Kali Dibagikan"
+        android:text="2.149 Comments • 1.563 Shares"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -162,7 +162,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/iv_like"
-            android:text="Suka"
+            android:text="@string/like"
             android:textSize="12sp" />
     </RelativeLayout>
 
@@ -189,7 +189,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/iv_comment"
-            android:text="Komentar"
+            android:text="@string/comment"
             android:textSize="12sp" />
     </RelativeLayout>
 
@@ -217,7 +217,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="8dp"
             android:layout_toRightOf="@+id/iv_share"
-            android:text="Bagikan"
+            android:text="@string/share"
             android:textSize="12sp" />
     </RelativeLayout>
 

@@ -5,4 +5,8 @@
     <string name="second_comment_username">Muhammad Dzaky Rahmanto</string>
     <string name="first_comment_message">Good Job, kapan peremajaan kelapa sawit di tempat kami p. presiden?</string>
     <string name="second_comment_message">Mantap Pak Presiden..</string>
+
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
 </resources>
