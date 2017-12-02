@@ -62,7 +62,7 @@
             android:layout_marginBottom="4dp"
             android:layout_marginStart="8dp"
             android:background="@android:color/transparent"
-            android:hint="Tulis Komentar..."
+            android:hint="@string/write_a_comment"
             android:inputType="text"
             android:singleLine="true"
             android:padding="12dp"

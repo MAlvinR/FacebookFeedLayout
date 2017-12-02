@@ -7,7 +7,7 @@
     android:background="@android:color/white"
     tools:ignore="ContentDescription">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profilePic"
         android:layout_width="54dp"
         android:layout_height="54dp"
@@ -15,7 +15,9 @@
         android:layout_marginTop="12dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/jokowi" />
+        android:src="@drawable/jokowi"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@android:color/darker_gray"/>
 
     <TextView
         android:id="@+id/profileName"
