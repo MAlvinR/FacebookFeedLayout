@@ -21,6 +21,7 @@ class CommentActivity : AppCompatActivity() {
         setupRecyclerView()
     }
 
+    // function to make list of comment
     private fun setupCommentData() {
         val listOfComment = listOf(
                 Comment(R.drawable.abe, getString(R.string.first_comment_username), getString(R.string.first_comment_message)),
@@ -38,6 +39,7 @@ class CommentActivity : AppCompatActivity() {
 
     }
 
+    // function to setup Recyclerview with layout manager
     private fun setupRecyclerView() {
 
         commentList.apply {
